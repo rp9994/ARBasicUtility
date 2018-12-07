@@ -1,0 +1,38 @@
+PODS:
+  - Alamofire (4.8.0)
+  - IQKeyboardManager (6.2.0)
+  - KRActivityIndicatorView (3.0.0)
+  - KRProgressHUD (3.4.0):
+    - KRActivityIndicatorView (= 3.0.0)
+  - ObjectMapper (3.4.1)
+  - SDWebImage (4.4.3):
+    - SDWebImage/Core (= 4.4.3)
+  - SDWebImage/Core (4.4.3)
+
+DEPENDENCIES:
+  - Alamofire
+  - IQKeyboardManager
+  - KRProgressHUD
+  - ObjectMapper
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - IQKeyboardManager
+    - KRActivityIndicatorView
+    - KRProgressHUD
+    - ObjectMapper
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: 3ec537f71edc9804815215393ae2b1a8ea33a844
+  IQKeyboardManager: 6194101620b73af5e67900b8f89707a99de0b804
+  KRActivityIndicatorView: c414000730a6f4969eeb354bee4f2aebc89c2c2e
+  KRProgressHUD: 79c8703f82179fe34b3602f10b30726f887983fa
+  ObjectMapper: 5311bd50ca732930959e7ca1a2de43ab823a5ced
+  SDWebImage: c5594f1a19c48d526d321e548902b56b479cd508
+
+PODFILE CHECKSUM: 3c72019e6ead0c6f7e65f20cf07bb27d3910697c
+
+COCOAPODS: 1.6.0.beta.2
