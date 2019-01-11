@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2008A83797E55CF0BBFEC5C5 /* Pods_iOS_Utilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 468F355AEFA0CF62365D30D4 /* Pods_iOS_Utilities.framework */; };
+		570CF8C421E86CD400EC54BB /* ARPhotoAssetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570CF8C221E86CD400EC54BB /* ARPhotoAssetManager.swift */; };
+		570CF8C521E86CD400EC54BB /* ARSocialAuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570CF8C321E86CD400EC54BB /* ARSocialAuthenticationManager.swift */; };
+		570CF8C721E86CEF00EC54BB /* ARSocialMediaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 570CF8C621E86CEF00EC54BB /* ARSocialMediaData.swift */; };
 		5712855921AD4399003441D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5712855821AD4399003441D2 /* AppDelegate.swift */; };
 		5712855B21AD4399003441D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5712855A21AD4399003441D2 /* ViewController.swift */; };
 		5712855E21AD4399003441D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5712855C21AD4399003441D2 /* Main.storyboard */; };
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		468F355AEFA0CF62365D30D4 /* Pods_iOS_Utilities.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Utilities.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5431C0B3750B074CFEFC31D4 /* Pods-iOS Utilities.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS Utilities.release.xcconfig"; path = "Target Support Files/Pods-iOS Utilities/Pods-iOS Utilities.release.xcconfig"; sourceTree = "<group>"; };
+		570CF8C221E86CD400EC54BB /* ARPhotoAssetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARPhotoAssetManager.swift; sourceTree = "<group>"; };
+		570CF8C321E86CD400EC54BB /* ARSocialAuthenticationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSocialAuthenticationManager.swift; sourceTree = "<group>"; };
+		570CF8C621E86CEF00EC54BB /* ARSocialMediaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ARSocialMediaData.swift; sourceTree = "<group>"; };
 		5712855521AD4399003441D2 /* ARBasicUtility.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARBasicUtility.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5712855821AD4399003441D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5712855A21AD4399003441D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,7 +100,10 @@
 				571649B221BA7DD000D24154 /* ARExtensions.swift */,
 				571649B121BA7DD000D24154 /* ARLoadingButton.swift */,
 				571649B421BA7DD000D24154 /* ARLocationManager.swift */,
+				570CF8C221E86CD400EC54BB /* ARPhotoAssetManager.swift */,
+				570CF8C321E86CD400EC54BB /* ARSocialAuthenticationManager.swift */,
 				571649B321BA7DD000D24154 /* ARUtilities.swift */,
+				570CF8C621E86CEF00EC54BB /* ARSocialMediaData.swift */,
 				571649B521BA7DD000D24154 /* ARWebManager.swift */,
 			);
 			path = ARUtilities;
@@ -248,10 +257,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				571649B621BA7DD000D24154 /* ARConstants.swift in Sources */,
+				570CF8C721E86CEF00EC54BB /* ARSocialMediaData.swift in Sources */,
 				571649BA21BA7DD000D24154 /* ARLocationManager.swift in Sources */,
 				571649B721BA7DD000D24154 /* ARLoadingButton.swift in Sources */,
 				571649BB21BA7DD000D24154 /* ARWebManager.swift in Sources */,
 				571649B821BA7DD000D24154 /* ARExtensions.swift in Sources */,
+				570CF8C421E86CD400EC54BB /* ARPhotoAssetManager.swift in Sources */,
+				570CF8C521E86CD400EC54BB /* ARSocialAuthenticationManager.swift in Sources */,
 				5712855B21AD4399003441D2 /* ViewController.swift in Sources */,
 				5712856121AD4399003441D2 /* iOS_Utilities.xcdatamodeld in Sources */,
 				5712855921AD4399003441D2 /* AppDelegate.swift in Sources */,
