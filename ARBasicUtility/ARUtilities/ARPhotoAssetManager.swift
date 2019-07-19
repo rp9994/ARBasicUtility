@@ -1,9 +1,9 @@
 //
 //  PhotoAssetManager.swift
-//  VideoApp
+//  ARBasic
 //
-//  Created by Vikash on 15/11/18.
-//  Copyright © 2018 Vikash. All rights reserved.
+//  Created by Ronak Adeshara on 17/11/18.
+//  Copyright © 2018 Ronak Adeshara. All rights reserved.
 //
 
 import Foundation
