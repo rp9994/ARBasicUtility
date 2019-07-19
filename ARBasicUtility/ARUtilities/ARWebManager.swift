@@ -1,9 +1,9 @@
 //
 //  APIManager.swift
-//  WashMe
+//  ARBasic
 //
-//  Created by iOS developer on 22/08/18.
-//  Copyright © 2018 Intelivita. All rights reserved.
+//  Created by Ronak Adeshara on 17/11/18.
+//  Copyright © 2018 Ronak Adeshara. All rights reserved.
 //
 
 import Foundation
