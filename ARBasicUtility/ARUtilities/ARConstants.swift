@@ -1,9 +1,9 @@
 //
 //  Constants.swift
-//  BaseDemo
+//  ARBasic
 //
-//  Created by Intelivita IOS Senior on 19/06/18.
-//  Copyright © 2018 Ronak. All rights reserved.
+//  Created by Ronak Adeshara on 17/11/18.
+//  Copyright © 2018 Ronak Adeshara. All rights reserved.
 //
 
 import Foundation
