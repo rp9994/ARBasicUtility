@@ -1,8 +1,8 @@
 //
 //  RALoadingButton.swift
-//  iOS Utilities
+//  ARBasic
 //
-//  Created by iOS developer on 30/11/18.
+//  Created by Ronak Adeshara on 17/11/18.
 //  Copyright © 2018 Ronak Adeshara. All rights reserved.
 //
 
