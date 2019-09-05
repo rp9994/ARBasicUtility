@@ -8,35 +8,48 @@
 
 import UIKit
 
-let appDelegate = UIApplication.shared.delegate as! AppDelegate
-let currentController = appDelegate.window?.rootViewController
+import UIKit
 
-struct AppDetails {
-    static let name = "App Name"
+struct App {
     
+    struct detail {
+        static let name = "App Name"
+        static let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        static let currentController = appDelegate.window?.rootViewController
+    }
     
-    enum urls {
+    struct urls {
         static let live = ""
         static let local = ""
         static let socket = ""
         static let appStoreUrl = ""
     }
     
-    enum version {
+    struct version {
         static let appVersion = Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String
         static let appBuildNumber = Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as! String
         
         static let versionWithBuildNumber = "v. \(Bundle.main.object(forInfoDictionaryKey: "CFBundleShortVersionString") as! String) (\(Bundle.main.object(forInfoDictionaryKey: "CFBundleVersion") as! String))"
     }
+    
+    struct screenSize {
+        static let width = UIScreen.main.bounds.width
+        static let height = UIScreen.main.bounds.height
+    }
+    
+    struct validCharacter {
+        static let onlyNumber = CharacterSet.init(charactersIn: "0123456789")
+        static let onlyAlphabets = CharacterSet.init(charactersIn: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")
+        static let onlyMobileNumber = CharacterSet.init(charactersIn: "0123456789")
+        static let onlyMobileNumberWithPlus = CharacterSet.init(charactersIn: "+0123456789")
+        static let onlyAlphabetsWithSpace = CharacterSet.init(charactersIn: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz ")
+        static let onlyAlphaNumericWithSpecialChar = CharacterSet.init(charactersIn: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz` !@#/$%^&*()_+|}{;:><")
+        static let onlyAlphaNumeric = CharacterSet.init(charactersIn: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789")
+        static let onlyAlphaNumericWithSpace = CharacterSet.init(charactersIn: "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789 ")
+        static let onlyZipcodeChar = CharacterSet.init(charactersIn: "-0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz")
+        static let onlyUserName = CharacterSet.init(charactersIn: "_ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789")
+    }
 }
-
-
-enum ScreenSize {
-    static let width = UIScreen.main.bounds.width
-    static let height = UIScreen.main.bounds.height
-}
-
-
 struct ValidationMessages {
     static let somethingWrong = "Internet connection seems to be slow, or problem with connecting to server"
     static let noNetwork = "Seems like you don't have an active internet connection"
